@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    font-family: "Open Sans";
+}
+.container{
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.nav-right{
+    display: flex;
+}
+img{
+        height: 70px;
+}
+nav span{
+  margin: 20px;
+}
+nav button{
+    padding: 10px;
+    padding-bottom: 25px;
+    border-radius: 20px;
+    width: 90px;
+    height: 30px;
+}
+nav .btn1{
+    border: 1px solid #5846f6;
+   
+    background-color: white;
+}
+.btn2{
+    background-color:#5846f6;
+    color: white;
+    border: none;
+    /* margin-left: 10px; */
+}
+/* Navabr ends */
+/* Main */
+.main{
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 70%;
+   
+   text-align: center;
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.pricebtn1{
+    padding: 10px;
+    border: 1px solid #5846f6;
+    margin-right: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-sizing:content-box;
+}
+.pricebtn2{
+    padding: 10px;
+    border: 1px solid #5846f6;
+    background-color: #5846f6;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: 0px;
+    box-sizing:content-box;
+
+}
+/* main end */
+
+/* pricing start */
+.pricing{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color:white;
+    padding-top: 40px;
+  
+}
+.card{
+    background-color: white;
+   
+    height: 650px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 20px;
+    width: 50px;
+    margin-left: 10px;
+}
+
+.card-button{
+     background-color: white;
+     width: 160px;
+    border: none;
+    border-radius: 20px;
+    border: 1px solid #5846f6;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#card-button3{
+    background-color: #5846f6;
+}
+.card4{
+    background-color: black;
+    color: white;
+}
+
+/* pricing end */
